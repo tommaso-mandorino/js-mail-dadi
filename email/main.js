@@ -28,3 +28,18 @@ for (let i = 0; i < guestEmails.length; i++) {
     }
 
 }
+
+// IF user is in the list
+if (userPresent) {
+    
+    // Print user is in the list
+    alert('SEI nella lista degli invitati della festa.');
+
+}
+// ELSE 
+else {
+
+    // Print user is not in the list
+    alert('NON sei nella lista degli invitati della festa.');
+
+}
